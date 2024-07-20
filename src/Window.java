@@ -14,6 +14,7 @@ public Window() {
     this.setFocusable(true);
     this.editPanel= new EditPanel(0,0,WINDOW_HEIGHT,WINDOW_WIDTH);
     this.add(editPanel);
+    editPanel.requestFocus();
 
 }
 public int getWINDOW_WIDTH() {
